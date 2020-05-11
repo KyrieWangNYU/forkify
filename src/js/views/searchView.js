@@ -103,3 +103,4 @@ export const renderResults = (recipes, page = 1, resPerPage = 10)=> {
     //render the pagination buttons
     renderButtons(page, recipes.length, resPerPage);
 };
+
