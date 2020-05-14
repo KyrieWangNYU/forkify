@@ -9,10 +9,8 @@ import List from './models/List';
 import Likes from './models/Likes';
 import Search from './models/Search';
 
+
 const state = {};
-window.state = state;
-
-
 /**
  * SEARCH CONTROLLER
  */
@@ -68,7 +66,6 @@ const controlRecipe = async () => {
 
 
     const id = window.location.hash.replace('#', '');
-    console.log(id);
 
     if (id) {
         // Prepare UI for changes
@@ -222,6 +219,4 @@ elements.recipe.addEventListener('click', e => {
 
 });
 
-
-window.l = new List();
 
